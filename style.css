@@ -1,9 +1,8 @@
 .container{
-    margin-bottom: 80px;
+    margin-bottom: 150px;!important;
 }
 .background-color-carousel-item{
     background-color: #fceae8;
-    /*background-color: #0f6674;*/
     border-radius: 20px;
 }
 .price-color{
@@ -17,4 +16,38 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.category img{
+    width: 110px;
+}
+.category-bags, .category-watchs, .category-shoes{
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.category-shoes{
+    background-image: linear-gradient(to bottom, #ffa500 0%, rgba(255, 241, 76, 0.55) 100%);
+
+}
+.category-watchs{
+    background-image: linear-gradient(to bottom, #ea15e2 0%, #d7d1d7 100%);
+}
+.category-bags{
+    background-image: linear-gradient(to bottom, #0000ff 0%, #c1c1d0 100%);
+}
+.shoes-category .card{
+    border: none;
+    box-shadow: 5px 10px 20px lightgray;
+    border-radius: 20px;
+}
+.backpack-category .card{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 10px 20px lightgray;
+
+}
+.backpack-category .card .card-footer{
+
+
+     border-top: 0px solid rgba(0,0,0,.125);
+
 }
